@@ -1,0 +1,231 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html,body{
+    font-family:Verdana,sans-serif;font-size:15px;line-height:1.5;
+}
+
+html{
+    overflow-x:hidden
+}
+h1{
+    font-size:36px
+}
+h2{
+    font-size:30px
+}
+h3{
+    font-size:24px
+}
+h4{
+    font-size:20px
+}
+h5{
+    font-size:18px
+}
+h6{
+    font-size:16px
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0
+}
+hr{
+    border:0;border-top:1px solid #eee;margin:20px 0
+}
+.top{
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+}
+.menu{
+    color:#000!important;
+    background-color:#fff!important;
+    font-size:24px !important;
+    max-width:1200px;
+    margin:0;
+}
+.navbar{
+    padding-top:16px!important;
+    padding-bottom:16px!important;
+    padding-left: 16px;
+    padding-right: 16px;
+    user-select: none;
+    border: none;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+.mail{
+    float:right!important;
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+.travelblog{
+    padding-top:16px !important;
+    padding-bottom:16px !important;
+    text-align:center!important;
+}
+#sidebar{
+    display:none;
+    z-index:2;
+    width:40%;
+    min-width:300px;
+    height:100%;
+    background-color:#fff;
+    position:fixed!important;
+    overflow:auto;
+}
+.navbar:hover{color:#000!important;background-color:#ccc!important}
+.navbutton{
+    padding:8px 16px;
+    float:left;
+    border:none;
+    display:hidden;
+    outline:0;
+    width:100%;
+    text-align:left;
+    white-space:normal;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    cursor:pointer;
+}
+.navbutton:hover{color:#000!important;background-color:#ccc!important}
+.navcontent{
+    position:fixed !important;
+    animation:animateleft 0.4s;
+    font-size:24px!important;
+    z-index:2;
+    top: 0;
+    text-align:left;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16);
+    width:40%;
+    display:none;
+    border:none;
+    white-space:normal;
+    float:left;
+    outline:0;
+    background-color:#fff;
+    overflow:auto;
+    min-width:300px;
+    height:100%;
+    left: 0 ;
+}
+
+@keyframes animateleft{
+    from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: rgb(247, 129, 109);
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,
+      -8px -8px 0 firebrick,
+      -30px 20px 40px dimgrey
+}
+.pagecontent{
+    transition:margin-left .4s;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1200px;
+    margin-top:100px;
+    padding:8px 16px!important;
+}
+.photogrid{
+    padding-top:16px!important;
+    padding-bottom:16px!important;
+    text-align: center!important;
+    padding: 0 8px!important;
+    display:block;
+    content:"";display:table;clear:both;
+}
+.pic{
+    float:left;width:100%;
+    width:24.99999%;
+}
+.photogrid>.pic{
+    padding:0 8px
+}
+.fakepage{
+    padding-top:32px!important;padding-bottom:32px!important;
+    text-align:center !important;
+    display:block;
+
+}
+.numbox{
+    padding-top:32px!important;padding-bottom:32px!important;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display:inline-block;
+}
+.pagenum{
+    padding:8px 16px;
+    white-space:normal;
+    outline:0;
+    text-align:center;
+    display:hidden;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    cursor:pointer
+}
+.pagenum:hover{color:#fff!important;background-color:#000!important}
+.pagenum1{
+    padding:8px 16px;
+    border:none;
+    white-space:normal;
+    outline:0;
+    text-align:center;
+    overflow:hidden;
+    text-decoration:none;
+    cursor:pointer;
+    color:#fff!important;
+    background-color:#000!important
+}
+.aboutme{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    text-align: center!important;
+    padding: 0.01em 16px;
+}
+.tag{
+    color:#fff;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+    color:#fff!important;
+    background-color:#616161!important;
+    font-size:12px!important;
+    margin-bottom:16px!important;
+}
+.tag1{
+    background-color:#000;
+    color:#fff;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+    margin-bottom:16px!important;
+}
+.hover li:hover{
+    background-color:#ccc;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Blog</title>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    </style>
+
+</head>
+<body>
+    <!-- nav content -->
+<nav class="navcontent"  id="mySidebar">
+    <a href="" onclick="pclose()"class="navbutton">Close Menu</a>
+    <a href="#destination" onclick="pclose()" class="navbutton">Destination</a>
+    <a href="#about" onclick="pclose()" class="navbutton">About</a>
+</nav>
+<!-- Top -->
+<div class="top">
+    <div class=" menu ">
+        <div class="navbar" onclick="popen()">☰</div>
+        <div class="mail">Mail</div>
+        <div class="travelblog blog"><h1>My Travel Blog</h1></div>
+    </div>
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<!-- page content  -->
+  <div class=" pagecontent">
+
+      <!-- First Photo Grid-->
+      <div class=" photogrid  " id="destination">
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-zhangye-gettyimages-175323801-1505334995.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Zhangye Danxia Geopark, China" style="width:100%">
+          <h3>Zhangye Danxia Geopark, China</h3>
+          <p>Geology lovers and avid Instagrammers alike will be drawn to the otherworldly hues of the "Rainbow Mountains." The colors were formed by the layering of sedimentary mineral deposits over millions of years.</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-venice-gettyimages-489741024-1505338894.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Venice, Italy" style="width:100%; height:110%;">
+          <h3> Venice, <br> Italy</h3>
+
+          <p>If traversing the canals with a be-striped gondolier sounds unbearably touristy, stick to the sidewalks and spectacular arched bridges to get your fill of this truly unique, wildly romantic floating city.</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-machu-ppichu-gettyimages-629556601-1505338681.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Cherries" style="width:100%">
+          <h3>Machu Picchu</h3>
+          <p>This World Heritage site is easily the most famous spot in Peru, and for good reason. The ancient terraced city’s astounding architecture and sweeping views of the surrounding mountains will leave you breathless (as might the nearly 8,000 foot elevation.)</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/great-ocean-road-128394846-1494616348.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Great Ocean Road, Australia" style="width:100%">
+          <h3>Great Ocean Road, Australia</h3>
+          <p>Head west from Melbourne on this coastal drive to see everything from the famous 12 Apostle rock formations, to koalas in Great Otway National Park as well as the charming seaside town of Lorne.</p>
+        </div>
+      </div>
+      
+      <!-- Second Photo Grid -->
+      <div class="photogrid">
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/1280x1919/japan-gettyimages-137098062.jpg?resize=980:*" alt="Japan in Cherry Blossom Season" style="width:100%">
+          <h3>Japan in Cherry Blossom Season</h3>
+          <p>While Japan is beautiful year-round, the few weeks each spring when cherry trees across the country explode with blossoms is a particularly pretty time to visit.</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/bora-bora-gettyimages-575766591.jpg?crop=1.0xw:1xh;center,top&resize=980:*" alt="Bora Bora, French Polynesia" style="width:100%">
+          <h3>Bora Bora, French Polynesia</h3>
+          <p>With turquoise lagoons, coral reefs and overwater bungalows, this small island in the South Pacific is basically heaven on Earth.</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-mu-cang-chai-gettyimages-625247432-1505338864.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Mù Cang Chải, Vietnam" style="width:100%">
+          <h3>Mù Cang Chải, Vietnam</h3>
+          <p>Get off the beaten path in this rural district where the rice paddy-terraced mountains and twisting streams will make you feel like you’re living in a fairy tale.</p>
+        </div>
+        <div class="pic">
+          <img src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/mirador-las-torres-gettyimages-512588114.jpg?crop=1.0xw:1xh;center,top&resize=980:*" alt="Torres del Paine National Park, Chile" style="width:100%">
+          <h3>Torres del Paine National Park, Chile</h3>
+          <p>If you're looking to get off the grid, head to Chile's Patagonia region for some of the most beautiful mountain views you'll ever see.</p>
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="fakepage">
+        <div class="numbox">
+          <a href="#" class="pagenum ">«</a>
+          <a href="#" class="pagenum1 ">1</a>
+          <a href="#" class="pagenum ">2</a>
+          <a href="#" class="pagenum ">3</a>
+          <a href="#" class="pagenum ">4</a>
+          <a href="#" class="pagenum ">»</a>
+        </div>
+      </div>
+      
+      <hr id="about">
+
+      <!-- About Section -->
+      <div class=" aboutme">  
+        <h3>About Me, The Travel Man</h3><br>
+        <img src="https://nypost.com/wp-content/uploads/sites/2/2018/01/travelone.jpg?quality=80&strip=all" alt="Me" style="display:block;margin:auto" width="800" height="533">
+        <div style="padding-top:32px!important;padding-bottom:32px!important">
+          <h4><b>Adventure is worthwhile</b></h4>
+          <h6><i>Traveling – it leaves you speechless, then turns you into a storyteller.</i></h6>
+          <p>Most people agree travelling is a good thing. People think it’s exciting, almost invigorating to travel. Travelling is the best way to learn new things, whether it be a new language or new culture because you’re experiencing it first hand instead of just reading or looking at pictures. It broadens your view of the world. For me travelling means stress and anxiety (both of which I try to block out). Travelling means being out of my comfort zone, especially when I’m with people I barely know; in this case, I was travelling with my aunt, uncle and cousin. Growing up I was a sheltered child so travelling meant leaving the familiarity of home and the people who kept me safe.</p>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Footer -->
+      <footer style="padding-top: 32px!important;padding-bottom: 32px!important;" >
+        <div style="width:33.33333%; float:left;">
+          <h3>FOOTER</h3>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p>Made By Phin</p>
+        </div>
+      
+        <div style="width:33.33333%; float:left;">
+          <h3>BLOG POSTS</h3>
+          <ul style="padding:8px 16px" class=" hover ">
+            <li style="border-bottom:1px solid #ddd;padding-top:16px!important;padding-bottom:16px!important">
+              <img src="https://www.theactivetimes.com/sites/default/files/2019/02/04/copy/camara-de-lobos-madeira-picture-id467497162.jpg" style="width:50px; float:left; margin-right:16px!important">
+              <span style="font-size:18px!important;">Lorem</span><br>
+              <span>Sed mattis nunc</span>
+            </li>
+            <li style="padding-top:16px!important;padding-bottom:16px!important">
+              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F04%2FItalian-Lakes-Italy-HOLIDAYDEST0319.jpg" style="width:50px; float:left; margin-right:16px!important">
+              <span style="font-size:18px!important">Ipsum</span><br>
+              <span>Praes tinci sed</span>
+            </li> 
+          </ul>
+        </div>
+    
+        <div style="float:left; width:33.33333%;" >
+          <h3>POPULAR TAGS</h3>
+          <p>
+            <span class="tag1">Travel</span> 
+            <span class="tag ">Destination</span> 
+            <span class="tag ">Beautiful</span>
+            <span class="tag ">Beaches</span> 
+            <span class="tag ">Famous</span> 
+            <span class="tag ">City</span>
+            <span class="tag ">Mountains</span> 
+            <span class="tag ">Hills</span> 
+            <span class="tag ">Tree</span>
+            <span class="tag ">Cherry Blossom</span> 
+            <span class="tag ">Rocks</span> 
+            <span class="tag">Nice views</span>
+            <span class="tag ">Cool</span> 
+            <span class="tag ">Chill</span>
+          </p>
+        </div>
+      </footer>
+    <!-- End page content -->
+
+  </div>
+<script>
+    // Script to open and close sidebar
+    function popen() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+     
+    function pclose() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+</body>
+</html>
